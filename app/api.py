@@ -14,7 +14,7 @@ from fastapi import Query
 
 router = APIRouter()
 
-# ------------------ DB SESSION ------------------
+# ------------------ DB SESSIONS ------------------
 def get_db():
     db = SessionLocal()
     try:
